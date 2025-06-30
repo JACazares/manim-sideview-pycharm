@@ -1,0 +1,13 @@
+<idea-plugin>
+    <id>com.manimsideview.pycharm</id>
+    <name>Manim Sideview</name>
+    <vendor>OpenAI Codex</vendor>
+    <version>0.1.0</version>
+    <idea-version since-build="233" until-build="241.*"/>
+
+    <description>Simple integration for running Manim scenes from PyCharm.</description>
+
+    <actions>
+        <action id="com.manimsideview.RunScene" class="com.manimsideview.pycharm.RunSceneAction" text="Run Manim Scene"/>
+    </actions>
+</idea-plugin>
